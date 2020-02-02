@@ -1,0 +1,178 @@
+﻿/* CSS Document */
+
+    body {
+    	font-family: Tahoma, Geneva, Helvetica, sans-serif;
+    	font-size: 10pt;
+    	color: black;
+		background-color: #36538D;
+    }
+
+    #container {
+      border: 1px solid #666;
+      width: 100%;
+      min-width: 650px;
+      margin: 0px auto;
+    }
+	
+/* --- MIN_HEADER PRACTICE--------------------------------------------*/	
+    #header_MIN {
+      height: 50px;
+	  
+      background-color: #E1E1E1;
+	
+      margin: 0;
+      padding: 0;
+      position: relative;
+    }
+	
+
+/* --- HEADER --------------------------------------------*/
+    #header {
+      height: 150px;
+	  min-width: 600px;
+      background-color: #E1E1E1;
+	  background-image:url(images/praktikh_askhsh_tei_large.jpg);
+      margin: 0;
+      padding: 0;
+      position: relative;
+    }
+
+    #header h1 {
+      color: #307FE0;
+      font-size: 40px;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      right: 20px;
+      top: 20px;
+    }
+
+/* --- SIDEBAR -------------------------------------------*/
+    #leftsidebar {
+      width: 180px;
+      float: left;
+      min-height: 800px;
+      padding: 10px;
+      margin: 0;
+    }
+
+    #leftsidebar ul {
+      list-style-type: none;
+      padding:0;
+      margin:0;
+    }
+
+    #leftsidebar ul li {
+      background-color: #7FC0C0;
+      border: solid thin #999;
+      height: 50px;                   /* 20 ΓΙΑ ΜΙΑ ΓΡΑΜΜΗ*/
+      margin: 5px 0 0 0;
+      padding: 5px;
+      text-align: right;
+      font-size: 15px;
+    }
+
+    #leftsidebar ul li a {
+      text-decoration: none;
+    }
+
+    #leftsidebar ul li a:hover {
+      font-weight: 600;
+    }
+
+
+/* --- MAIN ----------------------------------------------*/
+    #main {
+	  /* εαν ειχαμε μικρο left και 
+	  μεγαλο main τοτε θα καλυπτόταν απο το main.στο κατω μερος */
+	  margin-left: 200px;   
+      padding: 2em;
+      margin: 0 0 0 200px;
+      border-left: solid 1px #aaa;
+      line-height: 130%;
+      min-height: 800px;
+	  
+	  background:url(images/tei_logistiki.jpg);
+      background-repeat:no-repeat;
+      background-size:100% 100%;
+      
+    }
+
+
+/* --- FOOTER --------------------------------------------*/
+    #footer {
+      clear: both;
+      background-color: #E1E1E1;
+      text-align:center;
+      height: 20px;
+      padding: 10px;
+      margin: 0;
+    }
+
+    #leftfooter {
+      float:left;
+    }
+
+    #rightfooter {
+      float:right;
+    }
+
+	
+	
+	/* για να μη χαλάει το μενού καθώς οι browsers βάζουν 1px περίγραμμα 
+   στις εικόνες-συνδέσμους */  	
+img {border:none;}
+
+/* CSS Document   */
+
+
+
+/* για τα στοιχεία διεπαφής με κείμενo (text, textarea, select, button) */
+input, textarea, select {
+	font-size: 12pt;
+	background: #666;
+	color: blue;
+}
+/* για δεξιά στοίχιση κειμένου (πχ σε κάποια κελιά) */
+.right {
+	text-align: right;
+}
+
+/* για αριστερα στοίχιση κειμένου (πχ σε κάποια κελιά) */
+.left {
+	text-align: left;
+}
+
+
+/* για στοίχιση κειμένου πάνω, σε κελιά πίνακα με μεγάλο ύψος */
+.top {
+	vertical-align:top;
+}
+
+/* για τον μετρητή χαρακτήρων του textarea  */
+#chars_left_counter {
+	width:300px;
+	margin-top:0px;
+	padding:3px;
+	font-size:10px;
+	color: #A00;
+	text-align:right;
+}
+/* για το textarea */
+#comments {
+	width:300px;
+}
+
+/* CSS Document  MESSAGES*/
+
+#div_message {
+ width:500px;
+ height:300px;
+ padding:5px;
+ border: solid 1px #aaa;
+ overflow: auto;
+ margin: 10px;
+}
+
+
+
